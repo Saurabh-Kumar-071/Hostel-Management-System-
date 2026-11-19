@@ -1,0 +1,8 @@
+{
+  "name": "hostel-os-desktop",
+  "version": "1.0.0",
+  "productName": "HostelOS",
+  "description": "HostelOS - Residential Hostel Management Platform",
+  "author": "HostelOS",
+  "main": "main.js"
+}
