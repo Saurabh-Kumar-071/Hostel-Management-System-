@@ -1,0 +1,45 @@
+# ─── Dependencies ────────────────────────────────────────────────────────────
+node_modules/
+**/node_modules/
+
+# ─── Build & Binary Distribution ─────────────────────────────────────────────
+dist/
+**/dist/
+dist-electron/
+**/dist-electron/
+.next/
+**/.next/
+out/
+**/out/
+build/
+**/build/
+
+# ─── Executables & Large Binaries ────────────────────────────────────────────
+*.exe
+**/*.exe
+*.dll
+**/*.dll
+*.pak
+**/*.pak
+*.bin
+**/*.bin
+*.asar
+**/*.asar
+
+# ─── Environment & Secrets ───────────────────────────────────────────────────
+.env*.local
+**/.env*.local
+.env
+**/.env
+!.env.example
+!**/.env.example
+
+# ─── Logs & Debugging ────────────────────────────────────────────────────────
+*.log
+**/*.log
+
+# ─── OS & IDE Junk ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
